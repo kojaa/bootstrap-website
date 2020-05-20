@@ -61,7 +61,7 @@ a.button-primary {
   animation: fromTopToBottom 1s cubic-bezier(0.46, 0.96, 0.58, 0.97) forwards; }
 
 .from-bottom-to-top {
-  animation: fromBottomToTop 1s cubic-bezier(0.46, 0.96, 0.58, 0.97) forwards; }
+  animation: fromBottomToTop 1.5s cubic-bezier(0.46, 0.96, 0.58, 0.97) forwards; }
 
 @keyframes fromTopToBottom {
   0% {
@@ -73,7 +73,7 @@ a.button-primary {
   0% {
     top: 0; }
   100% {
-    top: -100%; } }
+    top: -130%; } }
 
 *,
 *::after,
